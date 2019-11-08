@@ -13,6 +13,7 @@ public class Script1 extends Open_CloseAppln{
 	{
 		HomePage hp=new HomePage(driver);
 		//Thread.sleep(2000);
+		System.out.println("Hi Hello");
 		hp.mainmenus(driver);
 		Thread.sleep(2000);
 		DiamandRing_Page dp=new DiamandRing_Page(driver);
